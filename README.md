@@ -252,9 +252,8 @@ Evolutionary-Creatures-Mountain-Climbing/
 ## Author
 
 **Dhanarasu Naveen**  
-Student ID: 230655533  
-Course: CM3020 – Artificial Intelligence  
-University of London (via SIM Singapore)
+Computer Science | University of London (via SIM Singapore)  
+Specialization: Artificial Intelligence & Machine Learning
 
 ## License
 
