@@ -177,16 +177,19 @@ Evolutionary-Creatures-Mountain-Climbing/
 │   ├── realtime_from_csv.py          # Real-time replay (use this!)
 │   └── test_*.py                     # Validation scripts
 │
+├── Final Experiment (Fixed Morphology)/
+│   ├── all_elites/                   # Best creatures from each generation
+│   │   ├── elite_gen_99.csv          # Final generation (recommended)
+│   │   ├── elite_gen_50.csv
+│   │   └── elite_gen_14.csv
+│   ├── best_overall/
+│   │   └── champion.csv
+│   └── results.csv                   # Experiment results summary
+│
 ├── Documentation/
 │   ├── AI-Report.pdf                 # Full coursework report
 │   ├── AI-Slides.pdf                 # Presentation
 │   └── AI-Demonstration.mp4          # Video demo
-│
-├── Final Experiment (Fixed Morphology)/
-│   └── all_elites/                   # Best creatures from each generation
-│       ├── elite_gen_99.csv          # Final generation (recommended)
-│       ├── elite_gen_50.csv
-│       └── elite_gen_14.csv
 │
 ├── README.md                         # This file
 └── LICENSE                           # MIT License
