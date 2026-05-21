@@ -129,8 +129,8 @@ Isolate specific physical hypotheses under fixed morphology and fitness.
 
 ## Documentation
 
-- **[Coursework Report](Documentation/AI-Report.pdf)** - 1,961 word analysis of all 15 experiments with graphs, tables, and detailed methodology
-- **[Presentation Slides](Documentation/AI-Slides.pdf)** - Complete presentation with visual explanations of each phase
+- **[Coursework Report](Documentation/AI%20-%20Report.pdf)** - 1,961 word analysis of all 15 experiments with graphs, tables, and detailed methodology
+- **[Presentation Slides](Documentation/AI%20-%20Slides.pdf)** - Complete presentation with visual explanations of each phase
 - **[Demo Video](https://drive.google.com/file/d/1zvkN6TkqLaumu7bBIxfCM1Qd1KlZUIie/view?usp=sharing)** - Evolution demonstration showing creatures from different generations (Google Drive)
 
 ## Important Note: Experiments and Code Versions
