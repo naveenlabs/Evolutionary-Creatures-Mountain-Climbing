@@ -1,0 +1,340 @@
+<?xml version="1.0"?><robot name="centipede_fixed_morphology">
+	<link name="0">
+		<visual>
+			<geometry>
+				<capsule length="0.55" radius="0.18"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.55" radius="0.18"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.05598318108697011"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="0_legL">
+		<visual>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.002356194490192345"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="0_legR">
+		<visual>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.002356194490192345"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="1">
+		<visual>
+			<geometry>
+				<capsule length="0.55" radius="0.18"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.55" radius="0.18"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.05598318108697011"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="1_legL">
+		<visual>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.002356194490192345"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="1_legR">
+		<visual>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.002356194490192345"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="2">
+		<visual>
+			<geometry>
+				<capsule length="0.55" radius="0.18"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.55" radius="0.18"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.05598318108697011"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="2_legL">
+		<visual>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.002356194490192345"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="2_legR">
+		<visual>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.002356194490192345"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="3">
+		<visual>
+			<geometry>
+				<capsule length="0.55" radius="0.18"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.55" radius="0.18"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.05598318108697011"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="3_legL">
+		<visual>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.002356194490192345"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="3_legR">
+		<visual>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.002356194490192345"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="4">
+		<visual>
+			<geometry>
+				<capsule length="0.55" radius="0.18"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.55" radius="0.18"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.05598318108697011"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="4_legL">
+		<visual>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.002356194490192345"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<link name="4_legR">
+		<visual>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</visual>
+		<collision>
+			<geometry>
+				<capsule length="0.3" radius="0.05"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<mass value="0.002356194490192345"/>
+			<inertia ixx="0.03" iyy="0.03" izz="0.03" ixy="0" ixz="0" iyx="0"/>
+		</inertial>
+	</link>
+	<joint name="0_legL_to_0" type="revolute">
+		<parent link="0"/>
+		<child link="0_legL"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="20.0" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="0.24 0.0 -0.297"/>
+	</joint>
+	<joint name="0_legR_to_0" type="revolute">
+		<parent link="0"/>
+		<child link="0_legR"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="20.0" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="-0.24 0.0 -0.297"/>
+	</joint>
+	<joint name="1_to_0" type="revolute">
+		<parent link="0"/>
+		<child link="1"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="1.1004893994251155" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="0.0 0.55 0.0"/>
+	</joint>
+	<joint name="1_legL_to_1" type="revolute">
+		<parent link="1"/>
+		<child link="1_legL"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="20.0" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="0.24 0.0 -0.297"/>
+	</joint>
+	<joint name="1_legR_to_1" type="revolute">
+		<parent link="1"/>
+		<child link="1_legR"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="20.0" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="-0.24 0.0 -0.297"/>
+	</joint>
+	<joint name="2_to_1" type="revolute">
+		<parent link="1"/>
+		<child link="2"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="6.798967653024104" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="0.0 0.55 0.0"/>
+	</joint>
+	<joint name="2_legL_to_2" type="revolute">
+		<parent link="2"/>
+		<child link="2_legL"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="20.0" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="0.24 0.0 -0.297"/>
+	</joint>
+	<joint name="2_legR_to_2" type="revolute">
+		<parent link="2"/>
+		<child link="2_legR"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="20.0" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="-0.24 0.0 -0.297"/>
+	</joint>
+	<joint name="3_to_2" type="revolute">
+		<parent link="2"/>
+		<child link="3"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="17.554270308365563" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="0.0 0.55 0.0"/>
+	</joint>
+	<joint name="3_legL_to_3" type="revolute">
+		<parent link="3"/>
+		<child link="3_legL"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="20.0" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="0.24 0.0 -0.297"/>
+	</joint>
+	<joint name="3_legR_to_3" type="revolute">
+		<parent link="3"/>
+		<child link="3_legR"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="20.0" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="-0.24 0.0 -0.297"/>
+	</joint>
+	<joint name="4_to_3" type="revolute">
+		<parent link="3"/>
+		<child link="4"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="24.9975" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="0.0 0.55 0.0"/>
+	</joint>
+	<joint name="4_legL_to_4" type="revolute">
+		<parent link="4"/>
+		<child link="4_legL"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="20.0" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="0.24 0.0 -0.297"/>
+	</joint>
+	<joint name="4_legR_to_4" type="revolute">
+		<parent link="4"/>
+		<child link="4_legR"/>
+		<axis xyz="1 0 0"/>
+		<limit effort="20.0" upper="1.57" lower="-1.57" velocity="1"/>
+		<origin rpy="0 0 0" xyz="-0.24 0.0 -0.297"/>
+	</joint>
+</robot>
